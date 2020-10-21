@@ -1,0 +1,73 @@
+html, body {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+body, div, h1, form,input,p  { 
+	padding: 0;	
+	margin: 0;
+	outline: none;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	color: #666;
+}
+      
+form {
+	margin: 0px 60px;
+}
+
+h1 {
+	padding: 10px 0;
+	font-size: 32px;
+	font-weight: 300;
+	text-align: center;
+}
+
+hr {
+	color: #a9a9a9;
+	opacity: 1;
+}
+
+.main-block {
+	width: 540px; 
+    min-height: 250px; 
+    padding: 10px 0;
+    margin: auto;
+    border-radius: 10px; 
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    background: #ebebeb; 
+}
+
+label{
+	padding: 10px;
+}
+
+button {
+	width: 100%;
+    padding: 10px 0;
+    margin: 5px auto;
+    border-radius: 5px; 
+    border: none;
+    background: #1c87c9; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+button:hover {
+	background: #26a9e0;
+}
+.spasinama{
+	margin: 54px;
+}
+.spasiemail{
+	margin: 57px;
+}
+.spasii{
+	margin-left: -50px;
+}
+.spasihobby{
+	margin: 54px;
+}

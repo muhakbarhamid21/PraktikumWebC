@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=ta, initial-scale=1.0">
+    <title> Registration </title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="main-block">
+		<h1>Registration</h1><hr>
+        <form action="" method="POST">
+			
+        	<div class="input-group">
+            	<label id="icon" for="nama" name="Nama">Nama</label>
+                    <label class="spasinama">:</label>
+                    <input class="spasii" type="text" name="name" id="name"  placeholder="Nama Lengkap" required/>    
+            </div>
+			
+            <div class="input-group">
+                <label for="email" name="email">Email</label>
+                    <label class="spasiemail">:</label>
+                    <input class="spasii"   type="text" name="email" id="email" placeholder="Email">        
+          	</div>
+			
+            <div class="input-group">
+                <label for="password" name="password">Password</label>       
+                    <label class="spasi" >:</label>
+                    <input class="spasi" type="password" name="password" id="password" placeholder="Password" required/>                  
+            </div>
+			
+        	<div class="gender">
+            	<label for="Jenis Kelamin" name="jeniskelamin">Jenis Kelamin</label>
+					<label >:</label>
+					<input type="radio" value="none" id="Pria" name="gender" checked/>
+					<label for="Pria" class="radio">Pria</label>
+					<input type="radio" value="none" id="Wanita" name="gender" />
+					<label for="Wanita" class="radio">Wanita</label>           
+            </div>
+			
+            <label for="hobby" name="hobby">Hobby</label>
+			<label class="spasihobby" >:</label>
+            <input type="checkbox">Coding <input type="checkbox">Design <input type="checkbox">Reading    
+        	
+			<div class="negara">
+         		<label for="negara">Negara</label>
+            	<label >:</label>
+                <select>
+                   <option value="">Indonesia</option>
+                   <option value="">Malaysia</option>
+                   <option value="">Myanmar</option>
+                   <option value="">Singapura</option>
+                   <option value="">Papua Nugini</option>
+                   <option value="">Timor Leste</option>
+               	</select>   
+			</div>
+        	
+			<label for="komentar">Komentar</label>
+            <label for="">:</label>
+        	<textarea name="komentar" cols="30" rows="10"></textarea>
+			
+			<div class="foto">
+				<p>Unggah Foto :</p>
+				<input type='file' name='foto' />
+			</div>
+			
+			<div class="button">
+				<br>
+				<button type="submit">Sign Up</button>
+				<hr>
+			</div>
+			
+			<p align="center"><font size="2">Sudah Memiliki Akun ? <a href="signin.html">Masuk Disini</a></font></p>
+		</form>
+	</div>
+</body>
